@@ -46,7 +46,7 @@ function App() {
             textAlign: "center",
           }}
         >
-          <h2 style={{ marginBottom: "20px", color: "#333" }}>Text Cleaner</h2>
+          <h2 style={{ marginBottom: "20px", color: "#333" }}>Text Cleaner (will censor bad words)</h2>
           <input
             value={text}
             onChange={changeText}
