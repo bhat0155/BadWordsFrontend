@@ -33,7 +33,7 @@ function App() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#f2f2f2",
+          backgroundColor: "#f2e29f",
         }}
       >
         <div
