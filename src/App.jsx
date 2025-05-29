@@ -18,7 +18,7 @@ function App() {
       setClean(cleanWords.data);
     } catch (err) {
       console.log(err);
-      setClean("Error occurred");
+      setClean("Please retry");
     }
     finally{
       setText("")
