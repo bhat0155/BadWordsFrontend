@@ -11,7 +11,7 @@ function App() {
   };
   const handleSubmit = async () => {
     try {
-      const cleanWords = await axios.post("http://localhost:8000/bad", {
+      const cleanWords = await axios.post("https://backendbadword.onrender.com/bad", {
         text,
       });
 
